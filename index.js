@@ -24,7 +24,7 @@ function checkAuth(req, res, next) {
   if (permanentToken) {
     next();
   } else {
-    console.log("redirect auth");
+    res.redirect('/auth');
   }
 }
 
