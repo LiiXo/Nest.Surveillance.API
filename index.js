@@ -12,8 +12,8 @@ const port = 3000;
 const swaggerDocument = YAML.load('./swagger.yaml');
 
 const nestApiUrl = 'https://api.home.nest.com';
-const clientId = '881534249218-692gl89ctmhch1abv0sir56f7kg81fs2.apps.googleusercontent.com';
-const clientSecret = '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';
+const clientId = '';
+const clientSecret = '';
 const redirectUri = 'http://localhost:3000/auth/callback';
 
 let permanentToken = '';
