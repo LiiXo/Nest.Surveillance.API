@@ -79,10 +79,10 @@ app.get('/cameras', checkAuth, async (req, res) => {
       const cameras = response.data;
       res.json(cameras);
     } else {
-      res.status(500).json({ error: 'Erreur lors de la récupération de la liste des caméras.' });
+      res.status(500).json({ error: 'Error retrieving the list of cameras.' });
     }
   } catch (error) {
-    res.status(500).json({ error: 'Erreur lors de la récupération de la liste des caméras.' });
+    res.status(500).json({ error: 'Error retrieving the list of cameras.' });
   }
 });
 
