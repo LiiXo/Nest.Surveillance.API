@@ -2,4 +2,4 @@
 
 NodeJS Version : v18.12.1
 
-NPM Version : 9,2,0
+NPM Version : v9.2.0
